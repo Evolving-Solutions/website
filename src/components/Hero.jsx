@@ -72,7 +72,7 @@ export function Hero() {
             </a>
           </div>
 
-          <div className="mt-10 flex justify-center gap-x-6">
+          {/* <div className="mt-10 flex justify-center gap-x-6">
             <Button href="/register">Get 6 months free</Button>
             <Button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -86,7 +86,7 @@ export function Hero() {
               </svg>
               <span className="ml-3">Watch video</span>
             </Button>
-          </div>
+          </div> */}
           {/* <div className="mt-36 lg:mt-44">
           <p className="font-display text-base text-slate-900">
             Trusted by these six companies so far
