@@ -165,7 +165,7 @@ export default function Home() {
                   </Disclosure.Button>
                 ))}
               </div>
-              <div className="border-t border-casal-500 pt-4 pb-3">
+              {/* <div className="border-t border-casal-500 pt-4 pb-3">
                 <div className="space-y-1 px-2">
                   {userNavigation.map((item) => (
                     <Disclosure.Button
@@ -178,7 +178,7 @@ export default function Home() {
                     </Disclosure.Button>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </Disclosure.Panel>
           </>
         )}
