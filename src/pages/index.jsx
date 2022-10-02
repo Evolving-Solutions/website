@@ -72,7 +72,9 @@ export default function Home() {
                 </div> */}
                 <div className="flex lg:hidden">
                   {/* Mobile menu button */}
-                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md bg-indigo-600 p-2 text-indigo-400 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600">
+                  <Disclosure.Button className="inline-flex items-center justify-center rounded-md bg-coral-500 p-2 text-white 
+                  hover:bg-coral-500 hover:text-casal-500 focus:outline-none focus:ring-2
+                  focus:ring-white focus:ring-offset-2 focus:ring-offset-coral-500">
                     <span className="sr-only">Open main menu</span>
                     {open ? (
                       <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -153,8 +155,8 @@ export default function Home() {
                     href={item.href}
                     className={classNames(
                       item.current
-                        ? 'bg-indigo-800 text-white'
-                        : 'text-indigo-200 hover:bg-indigo-600 hover:text-indigo-100',
+                        ? 'bg-casal-500 text-white'
+                        : 'text-coral-500 hover:bg-casal-500 hover:text-indigo-100',
                       'block rounded-md px-3 py-2 text-base font-medium'
                     )}
                     aria-current={item.current ? 'page' : undefined}
@@ -163,14 +165,14 @@ export default function Home() {
                   </Disclosure.Button>
                 ))}
               </div>
-              <div className="border-t border-indigo-800 pt-4 pb-3">
+              <div className="border-t border-casal-500 pt-4 pb-3">
                 <div className="space-y-1 px-2">
                   {userNavigation.map((item) => (
                     <Disclosure.Button
                       key={item.name}
                       as="a"
                       href={item.href}
-                      className="block rounded-md px-3 py-2 text-base font-medium text-indigo-200 hover:bg-indigo-600 hover:text-indigo-100"
+                      className="block rounded-md px-3 py-2 text-base font-medium text-casal-500 hover:bg-casal-500 hover:text-violet-100"
                     >
                       {item.name}
                     </Disclosure.Button>

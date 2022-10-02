@@ -27,7 +27,7 @@ export function Hero() {
         <Container className="pt-20 pb-16 text-center lg:pt-32">
           <h1 className="mx-auto max-w-5xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
             Services{' '}
-            <span className="relative whitespace-nowrap text-casal-500">
+            <span className="relative whitespace-nowrap text-coral-500">
               <svg
                 aria-hidden="true"
                 viewBox="0 0 418 42"
@@ -39,7 +39,7 @@ export function Hero() {
               <span className="relative">you already</span>
             </span>{' '}
             use integrated in{' '}
-            <span className="relative whitespace-nowrap text-casal-500">
+            <span className="relative whitespace-nowrap text-coral-500">
               <svg
                 aria-hidden="true"
                 viewBox="0 0 418 42"
@@ -60,13 +60,13 @@ export function Hero() {
             <button
               // toggle modal
               onClick={() => setModal(true)}
-              className="inline-flex items-center justify-center rounded-md bg-casal-500 px-6 py-3 text-base font-medium tracking-wide text-white shadow-md transition duration-200 ease-in hover:bg-casal-600 focus:outline-none focus:ring-2 focus:ring-casal-500 focus:ring-offset-2"
+              className="inline-flex items-center justify-center rounded-md bg-coral-500 px-6 py-3 text-base font-medium tracking-wide text-white shadow-md transition duration-200 ease-in hover:bg-coral-600 focus:outline-none focus:ring-2 focus:ring-coral-500 focus:ring-offset-2"
             >
               Join the Beta
             </button>
             <a
               href="https://twitter.com/statickit"
-              className="inline-flex items-center justify-center rounded-md border border-casal-500 bg-white px-6 py-3 text-base font-medium tracking-wide text-casal-500 shadow-md transition duration-200 ease-in hover:bg-casal-50 focus:outline-none focus:ring-2 focus:ring-casal-500 focus:ring-offset-2"
+              className="inline-flex items-center justify-center rounded-md border border-coral-500 bg-white px-6 py-3 text-base font-medium tracking-wide text-coral-500 shadow-md transition duration-200 ease-in hover:bg-coral-50 focus:outline-none focus:ring-2 focus:ring-coral-500 focus:ring-offset-2"
             >
               Follow on Twitter
             </a>

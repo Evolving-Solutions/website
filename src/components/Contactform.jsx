@@ -103,8 +103,8 @@ function Contactform({ open, onClose }) {
                           onChange={(e) => setFirstName(e.target.value)}
                           value={firstName}
                           required
-                          className="block w-full rounded-md border-gray-300 shadow-sm focus:border-casal-500
-                         focus:ring-casal-500 sm:text-sm"
+                          className="block w-full rounded-md border-gray-300 shadow-sm focus:border-coral-500
+                         focus:ring-coral-500 sm:text-sm"
                         />
                       </div>
                       <div>
@@ -120,8 +120,8 @@ function Contactform({ open, onClose }) {
                           onChange={(e) => setLastName(e.target.value)}
                           value={lastName}
                           required
-                          className="block w-full rounded-md border-gray-300 shadow-sm focus:border-casal-500
-                         focus:ring-casal-500 sm:text-sm"
+                          className="block w-full rounded-md border-gray-300 shadow-sm focus:border-coral-500
+                         focus:ring-coral-500 sm:text-sm"
                         />
                       </div>
                     </div>
@@ -138,7 +138,7 @@ function Contactform({ open, onClose }) {
                         autoComplete="phone"
                         placeholder="Mobile number"
                         required
-                        className="block w-full rounded-md border-gray-300 shadow-sm focus:border-casal-500 focus:ring-casal-500 sm:text-sm"
+                        className="block w-full rounded-md border-gray-300 shadow-sm focus:border-coral-500 focus:ring-coral-500 sm:text-sm"
                       />
                     </div>
 
@@ -155,7 +155,7 @@ function Contactform({ open, onClose }) {
                         autoComplete="email"
                         placeholder="Email"
                         required
-                        className="block w-full rounded-md border-gray-300 shadow-sm focus:border-casal-500 focus:ring-casal-500 sm:text-sm"
+                        className="block w-full rounded-md border-gray-300 shadow-sm focus:border-coral-500 focus:ring-coral-500 sm:text-sm"
                       />
                     </div>
                     {message && (
@@ -164,7 +164,7 @@ function Contactform({ open, onClose }) {
                     <div>
                       <button
                         type="submit"
-                        className="flex w-full justify-center rounded-md border border-transparent bg-casal-500 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-casal-700 focus:outline-none focus:ring-2 focus:ring-casal-500 focus:ring-offset-2"
+                        className="flex w-full justify-center rounded-md border border-transparent bg-coral-500 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-coral-700 focus:outline-none focus:ring-2 focus:ring-coral-500 focus:ring-offset-2"
                       >
                         Create your account
                       </button>
