@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Evolving Soluitons - All the services you use integrated in one platform.</title>
+        <title>Evolving Solutions - All the services you use integrated in one platform.</title>
         <meta
           name="description"
           content="Evolving Solutions is a platform that integrates all the services you use into one platform. We are currently in beta and are looking for beta testers."
