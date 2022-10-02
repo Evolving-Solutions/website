@@ -166,7 +166,7 @@ function Contactform({ open, onClose }) {
                         type="submit"
                         className="flex w-full justify-center rounded-md border border-transparent bg-coral-500 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-coral-700 focus:outline-none focus:ring-2 focus:ring-coral-500 focus:ring-offset-2"
                       >
-                        Create your account
+                        Apply to join the waitlist.
                       </button>
                     </div>
                   </form>
