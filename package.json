@@ -1,10 +1,5 @@
-// Copyright (c) 2022 Evolving Software Corporation
-// 
-// This software is released under the MIT License.
-// https://opensource.org/licenses/MIT
-
 {
-  "name": "tailwindui-salient",
+  "name": "evolvingweb",
   "version": "0.1.0",
   "private": true,
   "scripts": {
