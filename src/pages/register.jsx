@@ -1,3 +1,8 @@
+// Copyright (c) 2022 Evolving Software Corporation
+// 
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
 import Head from 'next/head'
 import Link from 'next/link'
 

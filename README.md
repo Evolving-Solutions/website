@@ -1,6 +1,13 @@
-# Salient
+<!--
+ Copyright (c) 2022 Evolving Software Corporation
+ 
+ This software is released under the MIT License.
+ https://opensource.org/licenses/MIT
+-->
 
-Salient is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+# Evolving Solutions Website
+[]: # Title: Evolving Solutions Website
+Evolving Solutions is a [Evolving Software](https://evolvingsoftware.io) project that provides open source tools for growing your business online.
 
 ## Getting started
 
@@ -24,7 +31,7 @@ You can start editing this template by modifying the files in the `/src` folder.
 
 ## License
 
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
+This project is licensed under the [MIT License](LICENSE.md).
 
 ## Learn more
 

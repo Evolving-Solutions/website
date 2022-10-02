@@ -1,3 +1,8 @@
+// Copyright (c) 2022 Evolving Software Corporation
+// 
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
+
 import { useId } from 'react'
 import Image from 'next/future/image'
 import { Tab } from '@headlessui/react'
